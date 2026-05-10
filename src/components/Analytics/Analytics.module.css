@@ -1,0 +1,28 @@
+.analytics {
+  display: grid;
+  gap: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  padding: 1.25rem;
+  border-radius: 18px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.card p {
+  margin: 0.75rem 0 0;
+  color: var(--muted);
+}
+
+.card small {
+  display: block;
+  margin-top: 0.5rem;
+  color: var(--text);
+}

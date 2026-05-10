@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Wheat",
+    "region": "North Central",
+    "currentPrice": 8.2,
+    "demandTrend": "Rising",
+    "image": "assets/hero/wheat.svg"
+  },
+  {
+    "name": "Maize",
+    "region": "South Plains",
+    "currentPrice": 6.7,
+    "demandTrend": "Stable",
+    "image": "assets/hero/maize.svg"
+  },
+  {
+    "name": "Soybeans",
+    "region": "Midwest",
+    "currentPrice": 11.4,
+    "demandTrend": "High",
+    "image": "assets/hero/soybeans.svg"
+  }
+]

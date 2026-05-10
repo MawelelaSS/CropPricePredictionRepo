@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Global Crop Index",
+    "value": 1425,
+    "change": 2.7,
+    "status": "up"
+  },
+  {
+    "title": "Average Yield",
+    "value": 6.1,
+    "change": 1.9,
+    "status": "up"
+  },
+  {
+    "title": "Export Volume",
+    "value": 710,
+    "change": -0.8,
+    "status": "down"
+  }
+]

@@ -1,0 +1,53 @@
+.marketOverview {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.summary {
+  display: grid;
+  gap: 1rem;
+}
+
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.metricCard {
+  padding: 1rem;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+}
+
+.metricTitle {
+  margin: 0 0 0.5rem;
+  color: var(--muted);
+}
+
+.up {
+  color: #216e34;
+}
+
+.down {
+  color: #b02a37;
+}
+
+.trends {
+  display: grid;
+  gap: 1rem;
+}
+
+.trendList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.trendItem {
+  padding: 1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+}

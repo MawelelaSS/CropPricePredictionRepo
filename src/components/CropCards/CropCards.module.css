@@ -1,0 +1,32 @@
+.cropCards {
+  display: grid;
+  gap: 1rem;
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  padding: 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: var(--surface);
+}
+
+.card strong {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.card span {
+  color: var(--primary-strong);
+  display: block;
+  margin: 0.75rem 0;
+}
+
+.card small {
+  color: var(--muted);
+}

@@ -1,0 +1,81 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(16px);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.brandLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--primary-strong);
+  text-decoration: none;
+}
+
+.brandIcon {
+  display: inline-flex;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 0.9rem;
+  background: var(--primary);
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.brandLink strong {
+  display: block;
+  font-size: 1rem;
+}
+
+.brandLink small {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navLinks a {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.primaryButton {
+  padding: 0.85rem 1.4rem;
+  border-radius: 999px;
+  background: var(--primary);
+  color: white;
+}
+
+.userEmail {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.logoutButton {
+  padding: 0.85rem 1.4rem;
+  border-radius: 999px;
+  background: var(--primary);
+  color: white;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.logoutButton:hover {
+  opacity: 0.9;
+}
+

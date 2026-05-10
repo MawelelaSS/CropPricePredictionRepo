@@ -1,0 +1,262 @@
+.homePage {
+  display: grid;
+  gap: 3rem;
+}
+
+.heroSection {
+  display: grid;
+  grid-template-columns: 1.3fr 0.9fr;
+  gap: 2rem;
+  align-items: start;
+  padding: 2rem 0;
+}
+
+.heroTag {
+  display: inline-flex;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  background: rgba(49, 119, 115, 0.12);
+  color: var(--primary-strong);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.heroSection h1 {
+  margin: 0;
+  font-size: clamp(2.75rem, 4vw, 4.25rem);
+  line-height: 1.05;
+  color: var(--text);
+}
+
+.heroText {
+  margin: 1.5rem 0;
+  max-width: 42rem;
+  color: var(--muted);
+  line-height: 1.85;
+}
+
+.heroActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.primaryButton,
+.secondaryButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  padding: 0.95rem 1.75rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.primaryButton {
+  background: var(--primary);
+  color: white;
+}
+
+.secondaryButton {
+  background: white;
+  border: 1px solid var(--border);
+  color: var(--primary-strong);
+}
+
+.heroStats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.heroStats div {
+  padding: 1.2rem 1.3rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+}
+
+.heroStats strong {
+  display: block;
+  font-size: 1.3rem;
+  margin-bottom: 0.4rem;
+}
+
+.heroCard {
+  padding: 2rem;
+  border-radius: 28px;
+  background: linear-gradient(180deg, rgba(64, 176, 110, 0.16), rgba(49, 119, 115, 0.08));
+  border: 1px solid rgba(49, 119, 115, 0.14);
+  box-shadow: 0 24px 60px rgba(49, 119, 115, 0.08);
+}
+
+.heroCardLabel {
+  color: var(--primary-strong);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.heroCardValue {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.heroCardMeta {
+  margin: 0.9rem 0;
+  color: var(--muted);
+}
+
+.heroCardFooter {
+  padding: 1rem;
+  background: white;
+  border-radius: 18px;
+  color: var(--primary-strong);
+  font-weight: 700;
+}
+
+.sectionIntro {
+  text-transform: uppercase;
+  color: var(--primary);
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  margin-bottom: 0.75rem;
+}
+
+.problemSection,
+.featuresSection,
+.testimonialsSection,
+.howItWorksSection,
+.ctaSection {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.problemSection h2,
+.featuresSection h2,
+.testimonialsSection h2,
+.howItWorksSection h2 {
+  margin: 0;
+  font-size: 2.15rem;
+  line-height: 1.25;
+}
+
+.problemCards,
+.featureGrid,
+.testimonialRow,
+.stepsRow {
+  display: grid;
+  gap: 1rem;
+}
+
+.problemCards {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.problemCard,
+.featureCard,
+.testimonialCard,
+.stepCard,
+.ctaCard {
+  border-radius: 24px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 1.6rem;
+}
+
+.problemCard strong,
+.featureCard strong,
+.stepCard strong {
+  display: block;
+  margin-bottom: 0.75rem;
+  font-size: 1.05rem;
+}
+
+.featureGrid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.testimonialRow {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.testimonialCard {
+  padding: 1.5rem;
+}
+
+.testimonialCard strong {
+  margin-bottom: 0.75rem;
+}
+
+.testimonialCard p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.stepsRow {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.stepCard {
+  display: grid;
+  gap: 1rem;
+}
+
+.stepCard span {
+  display: inline-flex;
+  width: 2.6rem;
+  height: 2.6rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(49, 119, 115, 0.12);
+  color: var(--primary-strong);
+  font-weight: 700;
+}
+
+.stepCard p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.ctaCard {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.ctaCard strong {
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.ctaCard p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.ctaActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+@media (max-width: 1024px) {
+  .heroSection {
+    grid-template-columns: 1fr;
+  }
+
+  .heroStats {
+    grid-template-columns: 1fr;
+  }
+
+  .ctaCard {
+    grid-template-columns: 1fr;
+  }
+}

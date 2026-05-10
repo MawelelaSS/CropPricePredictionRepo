@@ -1,0 +1,69 @@
+{
+  "project": {
+    "brand": "AgriMarketPulse",
+    "subtitle": "The heartbeat of smart farming",
+    "user": "sibusisolomawalela@gmail.com"
+  },
+  "selectedCrop": "Maize",
+  "selectedRegion": "Gauteng",
+  "priceSummary": {
+    "currentPrice": 4,
+    "unitLabel": "per ton",
+    "crop": "Maize",
+    "region": "Gauteng",
+    "change": 5.1,
+    "lastUpdated": "May 9, 2026"
+  },
+  "trendGraph": {
+    "labels": [
+      "Jan 15",
+      "Jan 22",
+      "Jan 29",
+      "Feb 5",
+      "Feb 12",
+      "Feb 19",
+      "Feb 26",
+      "Mar 5",
+      "Mar 12",
+      "Mar 19",
+      "Mar 26",
+      "Apr 2",
+      "Apr 9",
+      "Apr 16",
+      "Apr 23",
+      "Apr 30",
+      "May 7"
+    ],
+    "values": [3100, 3300, 3400, 3200, 3500, 3600, 3700, 3600, 3800, 3900, 4000, 4100, 4300, 4400, 4600, 4700, 4900]
+  },
+  "weatherImpact": {
+    "rainfall": "45mm",
+    "temperature": "28°C",
+    "outlook": "Favorable conditions for crop growth. Expected moderate rainfall."
+  },
+  "predictionCard": {
+    "direction": "UP",
+    "confidence": 78,
+    "summary": "Model Version: v2.1 | Based on historical trends and weather patterns",
+    "breakdown": [
+      { "range": "Day 1-7", "trend": "UP", "confidence": 78 },
+      { "range": "Day 8-14", "trend": "UP", "confidence": 75 },
+      { "range": "Day 15-21", "trend": "STABLE", "confidence": 65 },
+      { "range": "Day 22-30", "trend": "UP", "confidence": 68 }
+    ]
+  },
+  "recommendation": {
+    "action": "HOLD / WAIT",
+    "points": [
+      "Prices are predicted to increase by 12-15% over the next 14 days",
+      "High confidence level (78%) suggests reliable forecast",
+      "Favorable weather conditions support price increase"
+    ],
+    "alerts": "You’ll be notified when predicted price movement exceeds 10%"
+  },
+  "features": [
+    { "title": "AI-Powered Analysis", "subtitle": "Machine learning models analyze patterns humans may miss" },
+    { "title": "Weather Integration", "subtitle": "Real-time weather data improves prediction accuracy" },
+    { "title": "Smart Recommendations", "subtitle": "Data-driven insights help maximize your profits" }
+  ]
+}

@@ -1,0 +1,19 @@
+.appWrapper {
+  padding: 0;
+}
+
+.mainContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+  display: grid;
+  gap: 3rem;
+}
+
+.sectionBlock {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  padding: 2rem;
+  box-shadow: var(--shadow);
+}

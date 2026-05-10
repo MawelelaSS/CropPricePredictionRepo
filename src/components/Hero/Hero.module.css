@@ -1,0 +1,28 @@
+.hero {
+  padding: 3rem 1rem;
+  border-radius: 22px;
+  background: linear-gradient(180deg, rgba(49, 119, 115, 0.12), rgba(255, 255, 255, 0.8));
+}
+
+.heroContent {
+  max-width: 740px;
+}
+
+.intro {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+h1 {
+  margin: 0 0 1rem;
+  font-size: clamp(2.25rem, 3vw, 3rem);
+  line-height: 1.05;
+}
+
+p {
+  margin: 0;
+  color: var(--muted);
+  max-width: 37rem;
+}
